@@ -63,7 +63,7 @@ def identify_images(
 # Helper: Given a list of Path images, convert them to the `target_ext` and within an `output_dir` if provided.
 # For JPEG outputs, you can define the quality.
 # Finally, you can determine whether the function overwrites an existing output file that is a duplicate.
-def convert_images = convert_images(
+def convert_images(
         images,
         target_ext,
         output_dir,
